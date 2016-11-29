@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636001861DEBD2A300EA1DAA /* Pesron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636001851DEBD2A300EA1DAA /* Pesron.swift */; };
+		636001881DEBD40600EA1DAA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636001871DEBD40600EA1DAA /* Student.swift */; };
+		6360018A1DEC13F300EA1DAA /* KVC_Funcation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636001891DEC13F300EA1DAA /* KVC_Funcation.swift */; };
+		6360018C1DEC317300EA1DAA /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360018B1DEC317200EA1DAA /* UIButton+extension.swift */; };
 		63A057581DC1A37700E88A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A057571DC1A37700E88A88 /* AppDelegate.swift */; };
 		63A0575A1DC1A37700E88A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A057591DC1A37700E88A88 /* ViewController.swift */; };
 		63A0575D1DC1A37700E88A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A0575B1DC1A37700E88A88 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		636001851DEBD2A300EA1DAA /* Pesron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pesron.swift; sourceTree = "<group>"; };
+		636001871DEBD40600EA1DAA /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		636001891DEC13F300EA1DAA /* KVC_Funcation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVC_Funcation.swift; sourceTree = "<group>"; };
+		6360018B1DEC317200EA1DAA /* UIButton+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
 		63A057541DC1A37700E88A88 /* StudySwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A057571DC1A37700E88A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A057591DC1A37700E88A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				63A057571DC1A37700E88A88 /* AppDelegate.swift */,
+				636001891DEC13F300EA1DAA /* KVC_Funcation.swift */,
+				636001851DEBD2A300EA1DAA /* Pesron.swift */,
+				636001871DEBD40600EA1DAA /* Student.swift */,
 				63A057591DC1A37700E88A88 /* ViewController.swift */,
+				6360018B1DEC317200EA1DAA /* UIButton+extension.swift */,
 				63A0575B1DC1A37700E88A88 /* Main.storyboard */,
 				63A0575E1DC1A37700E88A88 /* Assets.xcassets */,
 				63A057601DC1A37700E88A88 /* LaunchScreen.storyboard */,
@@ -264,6 +276,10 @@
 			files = (
 				63A0575A1DC1A37700E88A88 /* ViewController.swift in Sources */,
 				63A057581DC1A37700E88A88 /* AppDelegate.swift in Sources */,
+				6360018A1DEC13F300EA1DAA /* KVC_Funcation.swift in Sources */,
+				636001861DEBD2A300EA1DAA /* Pesron.swift in Sources */,
+				636001881DEBD40600EA1DAA /* Student.swift in Sources */,
+				6360018C1DEC317300EA1DAA /* UIButton+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +528,7 @@
 				63A0577E1DC1A37700E88A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A0577F1DC1A37700E88A88 /* Build configuration list for PBXNativeTarget "StudySwfitTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +537,7 @@
 				63A057811DC1A37700E88A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A057821DC1A37700E88A88 /* Build configuration list for PBXNativeTarget "StudySwfitUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +546,7 @@
 				63A057841DC1A37700E88A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
